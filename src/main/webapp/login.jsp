@@ -17,7 +17,7 @@
 </head>
 <body>
 
-<h1>Login Form</h1>
+
 
 <form method="POST" action="login.jsp">
 

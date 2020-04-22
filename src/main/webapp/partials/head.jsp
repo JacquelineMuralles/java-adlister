@@ -9,8 +9,19 @@
 <html>
 <head>
     <title>Title</title>
+    <style>
+        body{
+            background-color: royalblue;
+        }
+        h1 {
+            font-size: 50px;
+            font-family: "Arial Hebrew Scholar", "sans-serif";
+            color: rebeccapurple;
+        }
+    </style>
 </head>
 <body>
+<h1>Login Form</h1>
 
 </body>
 </html>
