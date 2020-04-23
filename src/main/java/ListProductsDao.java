@@ -1,10 +1,8 @@
 import java.util.ArrayList;
 import java.util.List;
-
 // This is our DAO(Data Access Object, or data access class)
 public class ListProductsDao implements Products{
     // list all the products, find a product by ID, create a product
-
    // This will list all the products in the database table
     private List<Product> products;
 
@@ -32,11 +30,8 @@ public class ListProductsDao implements Products{
         chiaPet.setTitle("1999 Vintage Chia Pet");
         chiaPet.setPriceInCents(100);
         chiaPet.setDescription("A useless product for....something");
-
     }
-
     //TODO: Implement our interface requirements (from Products.java)
-
     @Override
     public Product findById(long id) {
         // We want to return the 'Product' object for the ID passed in
