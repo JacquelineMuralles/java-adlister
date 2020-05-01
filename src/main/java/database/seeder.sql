@@ -35,3 +35,9 @@ CREATE TABLE IF NOT EXISTS ads (
     PRIMARY KEY (id),
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
+
+INSERT INTO users (username, email, password)
+VALUES ('jameson', 'dog@bark.com', 'bowwow');
+
+INSERT INTO ads (user_id, title, description)
+VALUES (1, 'teepee city', 'a city of magical natives');
